@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Dennis Facebook Instant Articles module.
+ */
+
+require_once __DIR__ . '/vendor/autoload.php';

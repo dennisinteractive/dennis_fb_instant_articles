@@ -1,0 +1,5 @@
+name = Dennis Facebook Instant Articles
+description = Provides fb_instant_articles with its required dependencies
+core = 7.x
+package = Facebook Instant Articles
+dependencies[] = fb_instant_articles
