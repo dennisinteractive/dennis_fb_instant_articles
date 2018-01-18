@@ -1,4 +1,4 @@
 .idea/
 
 # Ignore .git of vendor/ contents.
-vendor/*/*/.git
+/vendor/*/*/.git
