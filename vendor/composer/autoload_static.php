@@ -43,7 +43,7 @@ class ComposerStaticInit7c412f5ff935c2c8683d35d746812210
         ),
         'Drupal\\fb_instant_articles_rss\\' => 
         array (
-            0 => __DIR__ . '/../..' . '/src/fb_instant_articles_display_rss',
+            0 => __DIR__ . '/../..' . '/src/fb_instant_articles_rss',
         ),
         'Drupal\\fb_instant_articles_display\\' => 
         array (
