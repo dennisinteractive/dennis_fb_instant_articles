@@ -9,5 +9,4 @@ return array(
     'Symfony\\Component\\CssSelector\\' => array($vendorDir . '/symfony/css-selector'),
     'Facebook\\InstantArticles\\' => array($vendorDir . '/facebook/facebook-instant-articles-sdk-php/src/Facebook/InstantArticles'),
     'Facebook\\' => array($vendorDir . '/facebook/graph-sdk/src/Facebook'),
-    'Drupal\\fb_instant_articles\\' => array($baseDir . '/src'),
 );
