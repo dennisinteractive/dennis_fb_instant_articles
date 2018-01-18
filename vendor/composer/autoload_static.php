@@ -20,6 +20,12 @@ class ComposerStaticInit7c412f5ff935c2c8683d35d746812210
             'Facebook\\InstantArticles\\' => 25,
             'Facebook\\' => 9,
         ),
+        'D' => 
+        array (
+            'Drupal\\fb_instant_articles_rss\\' => 31,
+            'Drupal\\fb_instant_articles_display\\' => 35,
+            'Drupal\\fb_instant_articles\\' => 27,
+        ),
     );
 
     public static $prefixDirsPsr4 = array (
@@ -34,6 +40,18 @@ class ComposerStaticInit7c412f5ff935c2c8683d35d746812210
         'Facebook\\' => 
         array (
             0 => __DIR__ . '/..' . '/facebook/graph-sdk/src/Facebook',
+        ),
+        'Drupal\\fb_instant_articles_rss\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src/fb_instant_articles_display_rss',
+        ),
+        'Drupal\\fb_instant_articles_display\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src/fb_instant_articles_display',
+        ),
+        'Drupal\\fb_instant_articles\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src/fb_instant_articles',
         ),
     );
 
