@@ -24,6 +24,7 @@ class ComposerStaticInit7c412f5ff935c2c8683d35d746812210
         array (
             'Drupal\\fb_instant_articles_rss\\' => 31,
             'Drupal\\fb_instant_articles_display\\' => 35,
+            'Drupal\\fb_instant_articles_api\\' => 31,
             'Drupal\\fb_instant_articles\\' => 27,
         ),
     );
@@ -48,6 +49,10 @@ class ComposerStaticInit7c412f5ff935c2c8683d35d746812210
         'Drupal\\fb_instant_articles_display\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src/fb_instant_articles_display',
+        ),
+        'Drupal\\fb_instant_articles_api\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src/fb_instant_articles_api',
         ),
         'Drupal\\fb_instant_articles\\' => 
         array (

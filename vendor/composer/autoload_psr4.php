@@ -11,5 +11,6 @@ return array(
     'Facebook\\' => array($vendorDir . '/facebook/graph-sdk/src/Facebook'),
     'Drupal\\fb_instant_articles_rss\\' => array($baseDir . '/src/fb_instant_articles_rss'),
     'Drupal\\fb_instant_articles_display\\' => array($baseDir . '/src/fb_instant_articles_display'),
+    'Drupal\\fb_instant_articles_api\\' => array($baseDir . '/src/fb_instant_articles_api'),
     'Drupal\\fb_instant_articles\\' => array($baseDir . '/src/fb_instant_articles'),
 );

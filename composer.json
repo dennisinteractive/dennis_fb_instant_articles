@@ -13,7 +13,8 @@
     "psr-4": {
       "Drupal\\fb_instant_articles\\": "src/fb_instant_articles/",
       "Drupal\\fb_instant_articles_display\\": "src/fb_instant_articles_display/",
-      "Drupal\\fb_instant_articles_rss\\": "src/fb_instant_articles_rss/"
+      "Drupal\\fb_instant_articles_rss\\": "src/fb_instant_articles_rss/",
+      "Drupal\\fb_instant_articles_api\\": "src/fb_instant_articles_api/"
     }
   }
 }
