@@ -15,7 +15,7 @@ require_once __DIR__ . '/vendor/autoload.php';
 /**
  * Implements hook_entity_info_alter().
  */
-function dennis_fb_instant_articles_display_entity_info_alter(&$entity_info) {
+function dennis_fb_instant_articles_entity_info_alter(&$entity_info) {
   $entity_types = fb_instant_articles_display_get_article_entity_types();
   foreach (array_keys($entity_types) as $entity_type) {
     $entity_info[$entity_type]['view modes']['fb_instant_article'] = array(
