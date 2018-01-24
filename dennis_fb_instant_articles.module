@@ -1,6 +1,12 @@
 <?php
 /**
  * @file
+ * Code for the Dennis Facebook Instant Articles feature.
+ */
+
+include_once 'dennis_fb_instant_articles.features.inc';
+/**
+ * @file
  * Code for the Dennis Facebook Instant Articles module.
  */
 

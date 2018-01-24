@@ -1,0 +1,8 @@
+<?php
+
+/**
+ * Implements hook_uninstall().
+ */
+function dennis_fb_instant_articles_uninstall() {
+  // We need to uninstall fb_instant_articles modules at the same time.
+}
