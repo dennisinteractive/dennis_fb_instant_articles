@@ -11,19 +11,3 @@ function dennis_fb_instant_articles_install() {
     ->condition('name', 'dennis_fb_instant_articles')
     ->execute();
 }
-
-/**
- * Implements hook_disable().
- *
- * We need to disable the contrib module otherwise we will get a fatal error.
- */
-function dennis_fb_instant_articles_disable() {
-  module_disable(
-    array(
-      'fb_instant_articles_rss',
-      'fb_instant_articles_views',
-      'fb_instant_articles_display',
-      'fb_instant_articles'
-    )
-  );
-}
