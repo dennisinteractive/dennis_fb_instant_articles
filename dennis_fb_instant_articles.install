@@ -1,0 +1,13 @@
+<?php
+
+/**
+ * Implements hook_install().
+ */
+function dennis_fb_instant_articles_install() {
+  // Make sure this module is below webform_ajax in terms of system weight.
+  db_update('system')
+    ->fields(['weight' => 1])
+    ->condition('type', 'module')
+    ->condition('name', 'dennis_fb_instant_articles')
+    ->execute();
+}
